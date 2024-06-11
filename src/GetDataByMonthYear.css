@@ -1,0 +1,69 @@
+/* GetDataByMonthYear.css */
+
+/* Container styling */
+.getData-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Label styling */
+.getData-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Input styling */
+.getData-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.getData-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.getData-button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+.getData-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.getData-table th, .getData-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.getData-table th {
+    background-color: #f2f2f2;
+}
+
+.getData-header {
+    margin-bottom: 20px;
+    font-size: 36px; /* Larger font size */
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+    text-transform: uppercase; /* Uppercase text */
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3); /* Text shadow */
+}
