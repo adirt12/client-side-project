@@ -26,7 +26,7 @@ function App() {
     return (
         <div className="App">
             <header>
-                <h1>HIT Restaurant</h1>
+                <h1>HIT Client Project</h1>
             </header>
             <div className="main-content">
                 <AddCost />

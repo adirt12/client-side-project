@@ -34,17 +34,17 @@ function AddCost() {
         <div className="addCost-container">
             <h2 className="addCost-header">New Item</h2>
             <label className="addCost-label">
-                Dish Name:
+                Name:
                 <input className="addCost-input" onChange={(e) => {
                     setNameDish(e.target.value)
                 }} name="name" value={nameDish}/>
             </label>
             <label className="addCost-label">
-                Dish Price:
+                Price:
                 <input className="addCost-input" onChange={(e) => handleChange(e)} name="price" value={priceDish}/>
             </label>
             <label className="addCost-label">
-                Dish Category:
+                Category:
                 <select className="addCost-input" onChange={(e) => {
                     setCategoryDish(e.target.value)
                 }} name="category" value={categoryDish}>
