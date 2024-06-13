@@ -7,7 +7,7 @@ import GetDataByMonthYear from './getDataByMonthYear';
 import idb from './idb2'
 
 function App() {
-    const [db, setDb] = useState(null);
+    const [, setDb] = useState(null);
 
     useEffect(() => {
         const initializeDB = async () => {
@@ -21,6 +21,7 @@ function App() {
         };
 
         initializeDB();
+        console.log("i am here")
     }, []);
     return (
         <div className="App">

@@ -40,7 +40,7 @@ const idb= {
             const currentDate = new Date();
             const dateTime = currentDate.toLocaleString();
 
-            const day = new Date(dateTime).getDate();
+            // const day = new Date(dateTime).getDate();
             const month = new Date(dateTime).getMonth() + 1;
             const year = new Date(dateTime).getFullYear();
 
